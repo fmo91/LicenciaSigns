@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18787422296669B3007B7550 /* LicenciaSignsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18787421296669B3007B7550 /* LicenciaSignsApp.swift */; };
+		18787424296669B3007B7550 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18787423296669B3007B7550 /* ContentView.swift */; };
+		18787426296669B4007B7550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18787425296669B4007B7550 /* Assets.xcassets */; };
+		18787429296669B4007B7550 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18787428296669B4007B7550 /* Preview Assets.xcassets */; };
+		18787433296669B5007B7550 /* LicenciaSignsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18787432296669B5007B7550 /* LicenciaSignsTests.swift */; };
+		1878743D296669B5007B7550 /* LicenciaSignsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878743C296669B5007B7550 /* LicenciaSignsUITests.swift */; };
+		1878743F296669B5007B7550 /* LicenciaSignsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878743E296669B5007B7550 /* LicenciaSignsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1878742F296669B5007B7550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18787416296669B3007B7550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1878741D296669B3007B7550;
+			remoteInfo = LicenciaSigns;
+		};
+		18787439296669B5007B7550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18787416296669B3007B7550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1878741D296669B3007B7550;
+			remoteInfo = LicenciaSigns;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1878741E296669B3007B7550 /* LicenciaSigns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicenciaSigns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18787421296669B3007B7550 /* LicenciaSignsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenciaSignsApp.swift; sourceTree = "<group>"; };
+		18787423296669B3007B7550 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18787425296669B4007B7550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18787428296669B4007B7550 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1878742E296669B5007B7550 /* LicenciaSignsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicenciaSignsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18787432296669B5007B7550 /* LicenciaSignsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenciaSignsTests.swift; sourceTree = "<group>"; };
+		18787438296669B5007B7550 /* LicenciaSignsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LicenciaSignsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1878743C296669B5007B7550 /* LicenciaSignsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenciaSignsUITests.swift; sourceTree = "<group>"; };
+		1878743E296669B5007B7550 /* LicenciaSignsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenciaSignsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1878741B296669B3007B7550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878742B296669B5007B7550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18787435296669B5007B7550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18787415296669B3007B7550 = {
+			isa = PBXGroup;
+			children = (
+				18787420296669B3007B7550 /* LicenciaSigns */,
+				18787431296669B5007B7550 /* LicenciaSignsTests */,
+				1878743B296669B5007B7550 /* LicenciaSignsUITests */,
+				1878741F296669B3007B7550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1878741F296669B3007B7550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1878741E296669B3007B7550 /* LicenciaSigns.app */,
+				1878742E296669B5007B7550 /* LicenciaSignsTests.xctest */,
+				18787438296669B5007B7550 /* LicenciaSignsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18787420296669B3007B7550 /* LicenciaSigns */ = {
+			isa = PBXGroup;
+			children = (
+				18787421296669B3007B7550 /* LicenciaSignsApp.swift */,
+				18787423296669B3007B7550 /* ContentView.swift */,
+				18787425296669B4007B7550 /* Assets.xcassets */,
+				18787427296669B4007B7550 /* Preview Content */,
+			);
+			path = LicenciaSigns;
+			sourceTree = "<group>";
+		};
+		18787427296669B4007B7550 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18787428296669B4007B7550 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18787431296669B5007B7550 /* LicenciaSignsTests */ = {
+			isa = PBXGroup;
+			children = (
+				18787432296669B5007B7550 /* LicenciaSignsTests.swift */,
+			);
+			path = LicenciaSignsTests;
+			sourceTree = "<group>";
+		};
+		1878743B296669B5007B7550 /* LicenciaSignsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1878743C296669B5007B7550 /* LicenciaSignsUITests.swift */,
+				1878743E296669B5007B7550 /* LicenciaSignsUITestsLaunchTests.swift */,
+			);
+			path = LicenciaSignsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1878741D296669B3007B7550 /* LicenciaSigns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18787442296669B5007B7550 /* Build configuration list for PBXNativeTarget "LicenciaSigns" */;
+			buildPhases = (
+				1878741A296669B3007B7550 /* Sources */,
+				1878741B296669B3007B7550 /* Frameworks */,
+				1878741C296669B3007B7550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicenciaSigns;
+			productName = LicenciaSigns;
+			productReference = 1878741E296669B3007B7550 /* LicenciaSigns.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1878742D296669B5007B7550 /* LicenciaSignsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18787445296669B5007B7550 /* Build configuration list for PBXNativeTarget "LicenciaSignsTests" */;
+			buildPhases = (
+				1878742A296669B5007B7550 /* Sources */,
+				1878742B296669B5007B7550 /* Frameworks */,
+				1878742C296669B5007B7550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18787430296669B5007B7550 /* PBXTargetDependency */,
+			);
+			name = LicenciaSignsTests;
+			productName = LicenciaSignsTests;
+			productReference = 1878742E296669B5007B7550 /* LicenciaSignsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18787437296669B5007B7550 /* LicenciaSignsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18787448296669B5007B7550 /* Build configuration list for PBXNativeTarget "LicenciaSignsUITests" */;
+			buildPhases = (
+				18787434296669B5007B7550 /* Sources */,
+				18787435296669B5007B7550 /* Frameworks */,
+				18787436296669B5007B7550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1878743A296669B5007B7550 /* PBXTargetDependency */,
+			);
+			name = LicenciaSignsUITests;
+			productName = LicenciaSignsUITests;
+			productReference = 18787438296669B5007B7550 /* LicenciaSignsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18787416296669B3007B7550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1878741D296669B3007B7550 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					1878742D296669B5007B7550 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1878741D296669B3007B7550;
+					};
+					18787437296669B5007B7550 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1878741D296669B3007B7550;
+					};
+				};
+			};
+			buildConfigurationList = 18787419296669B3007B7550 /* Build configuration list for PBXProject "LicenciaSigns" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18787415296669B3007B7550;
+			productRefGroup = 1878741F296669B3007B7550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1878741D296669B3007B7550 /* LicenciaSigns */,
+				1878742D296669B5007B7550 /* LicenciaSignsTests */,
+				18787437296669B5007B7550 /* LicenciaSignsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1878741C296669B3007B7550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18787429296669B4007B7550 /* Preview Assets.xcassets in Resources */,
+				18787426296669B4007B7550 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878742C296669B5007B7550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18787436296669B5007B7550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1878741A296669B3007B7550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18787424296669B3007B7550 /* ContentView.swift in Sources */,
+				18787422296669B3007B7550 /* LicenciaSignsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878742A296669B5007B7550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18787433296669B5007B7550 /* LicenciaSignsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18787434296669B5007B7550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878743D296669B5007B7550 /* LicenciaSignsUITests.swift in Sources */,
+				1878743F296669B5007B7550 /* LicenciaSignsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18787430296669B5007B7550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1878741D296669B3007B7550 /* LicenciaSigns */;
+			targetProxy = 1878742F296669B5007B7550 /* PBXContainerItemProxy */;
+		};
+		1878743A296669B5007B7550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1878741D296669B3007B7550 /* LicenciaSigns */;
+			targetProxy = 18787439296669B5007B7550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18787440296669B5007B7550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18787441296669B5007B7550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18787443296669B5007B7550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LicenciaSigns/Preview Content\"";
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.LicenciaSigns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18787444296669B5007B7550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LicenciaSigns/Preview Content\"";
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.LicenciaSigns;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18787446296669B5007B7550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.LicenciaSignsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicenciaSigns.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LicenciaSigns";
+			};
+			name = Debug;
+		};
+		18787447296669B5007B7550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.LicenciaSignsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LicenciaSigns.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LicenciaSigns";
+			};
+			name = Release;
+		};
+		18787449296669B5007B7550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.LicenciaSignsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LicenciaSigns;
+			};
+			name = Debug;
+		};
+		1878744A296669B5007B7550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KNBYWGK7M7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmo.LicenciaSignsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LicenciaSigns;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18787419296669B3007B7550 /* Build configuration list for PBXProject "LicenciaSigns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18787440296669B5007B7550 /* Debug */,
+				18787441296669B5007B7550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18787442296669B5007B7550 /* Build configuration list for PBXNativeTarget "LicenciaSigns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18787443296669B5007B7550 /* Debug */,
+				18787444296669B5007B7550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18787445296669B5007B7550 /* Build configuration list for PBXNativeTarget "LicenciaSignsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18787446296669B5007B7550 /* Debug */,
+				18787447296669B5007B7550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18787448296669B5007B7550 /* Build configuration list for PBXNativeTarget "LicenciaSignsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18787449296669B5007B7550 /* Debug */,
+				1878744A296669B5007B7550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18787416296669B3007B7550 /* Project object */;
+}
